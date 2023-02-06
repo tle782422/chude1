@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="my"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="my"/>
+			<item value="thymeleaf"/>
+			<item value="customAuthenticationProvider"/>
+			<item value="mfaTokenManager"/>
+			<item value="totp"/>
+			<item value="accessDeci"/>
+			<item value="accessDeniedHandler"/>
+			<item value="AuthenticationFailureListener"/>
+			<item value="isBruteForceAttack"/>
+			<item value="FailedLogin"/>
+			<item value="successHandler"/>
+			<item value="userDetailsService"/>
+			<item value="passwordEncoder"/>
+			<item value="FLEET"/>
+			<item value="flee"/>
+		</list>
+		<list key="replacehistory">
+			<item value="story"/>
+			<item value="name"/>
+			<item value="country"/>
+			<item value="storyMake"/>
+			<item value=""/>
+			<item value="products"/>
+			<item value="customers"/>
+			<item value="custom"/>
+			<item value="cust"/>
+			<item value="role"/>
+			<item value="Role"/>
+			<item value="@{/login}"/>
+			<item value="storymodels"/>
+			<item value="Story"/>
+			<item value="User"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1413"/>
+		<item key="DIALOG_Y_ORIGIN" value="585"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="445"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

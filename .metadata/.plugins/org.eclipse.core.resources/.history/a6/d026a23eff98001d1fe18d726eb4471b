@@ -1,0 +1,13 @@
+package com.truyentranh.webtruyen;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CodeJavaApplication2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CodeJavaApplication2Application.class, args);
+	}
+
+}

@@ -1,0 +1,189 @@
+1673986539526	Move 3 resources to 'templates'
+1673987719541	Delete element
+1673987991332	Delete element
+1673988077579	Delete element
+1673989748127	Delete element
+1673989981601	Delete element
+1673990067303	Delete element
+1674057538591	Copy file
+1674061008613	Rename resource 'verify'
+1674068239631	Delete element
+1674069793512	Rename type 'UserFogotPassword'
+1674072305321	Copy compilation unit
+1674072334807	Rename type 'MailInfo'
+1674072927863	Rename resource 'forgotpassword.html'
+1674147248568	Copy compilation unit
+1674147281619	Copy compilation unit
+1674147290548	Copy compilation unit
+1674147372373	Copy compilation unit
+1674147446648	Copy compilation unit
+1674147458792	Copy compilation unit
+1674148007370	Copy compilation units
+1674148231619	Rename type 'MailerServiceImpl'
+1674148239439	Rename type 'UserServiceImpl'
+1674148287693	Rename type 'MailerService'
+1674148300835	Rename type 'UserService'
+1674148308110	Rename type 'MailerServicei'
+1674148315886	Rename type 'UserServicei'
+1674148445858	Rename type 'MailerServiceImpl'
+1674148463947	Rename type 'UserServiceImpl'
+1674148683289	Delete element
+1674149074787	Delete element
+1674149205382	Rename type 'MailerRepository'
+1674149222452	Rename type 'UserRepository'
+1674149378056	Copy compilation unit
+1674149391426	Copy compilation unit
+1674149404216	Copy compilation unit
+1674149780996	Copy compilation units
+1674150300988	Copy compilation unit
+1674150572386	Copy compilation unit
+1674150675486	Rename type 'mailerController'
+1674150683301	Copy compilation unit
+1674150714295	Copy compilation unit
+1674150770459	Copy compilation unit
+1674150894959	Copy compilation unit
+1674151116217	Rename package 'net.javaguides.springboot'
+1674151144467	Rename package 'net.javaguides.springboot.config'
+1674151178359	Rename package 'net.javaguides.springboot.model'
+1674151190172	Rename package 'net.javaguides.springboot.repository'
+1674151199402	Rename package 'net.javaguides.springboot.service'
+1674151213815	Rename package 'net.javaguides.springboot.utils'
+1674151223097	Rename package 'net.javaguides.springboot.web'
+1674151239834	Rename package 'net.javaguides.springboot.web.dto'
+1674151268429	Rename package 'com.truyentranh.webtruyen.web'
+1674151522341	Copy package
+1674151533632	Copy packages
+1674152369816	Rename package 'com.truyentranh.webtruyen.controller'
+1674152404454	Rename package 'com.truyentranh.webtruyen.model'
+1674152425289	Rename package 'com.truyentranh.webtruyen.repository'
+1674152433817	Rename package 'com.truyentranh.webtruyen.service'
+1674153093076	Delete element
+1674153777675	Rename package 'com.truyentranh.webtruyen.config'
+1674157513812	Rename resource 'toanle.jpg'
+1674160039519	Rename resource 'storyModel.js'
+1674160069161	Rename resource 'storyMake.js'
+1674160083237	Rename resource 'storyType.js'
+1674160120725	Rename resource 'storyStatus.js'
+1674160436114	Rename resource 'storymodel.js'
+1674160446660	Rename resource 'storymake.js'
+1674160453218	Rename resource 'storystatus.js'
+1674160461124	Rename resource 'storytype.js'
+1674161329109	Delete element
+1674228932364	Delete element
+1674229009528	Delete element
+1674229022004	Copy file
+1674249291622	Copy package
+1674249303516	Copy package
+1674249410291	Copy package
+1674256413724	Copy file
+1674343200205	Delete element
+1674343579266	Delete element
+1674343597770	Move 'Employee.java' to 'models'
+1674343614548	Delete element
+1674343828568	Move 'Employee.java' to 'hr'
+1674343850604	Move 'Employee.java' to 'models'
+1674343870503	Move 'Employee.java' to 'models'
+1674343950730	Move 'Employee.java' to 'models'
+1674343959092	Delete element
+1674343974282	Delete element
+1674343988470	Move 'EmployeeType.java' to 'models'
+1674344005377	Delete element
+1674344019451	Move 'JobTitle.java' to 'models'
+1674344029725	Delete element
+1674344043006	Move 'Person.java' to 'models'
+1674344393813	Delete element
+1674344400843	Delete element
+1674344404290	Delete element
+1674344408897	Delete element
+1674344415295	Delete element
+1674344419161	Delete element
+1674344423173	Delete element
+1674344426622	Delete element
+1674344430885	Delete element
+1674344447903	Move 'MailerController.java' to 'controllers'
+1674344453727	Delete element
+1674344476139	Delete element
+1674344497069	Delete element
+1674344514950	Delete element
+1674344524574	Delete element
+1674344528170	Delete element
+1674344532219	Delete element
+1674344535448	Delete element
+1674344539073	Delete element
+1674344542451	Delete element
+1674344554900	Delete element
+1674344559169	Delete element
+1674344575671	Delete element
+1674344625225	Move 'UserRegistrationController.java' to 'controllers'
+1674344638008	Delete element
+1674344724105	Move 'MailInfoDto.java' to 'dto'
+1674344734889	Move 'UserRegistrationDto.java' to 'dto'
+1674344742507	Delete element
+1674344772651	Delete element
+1674344775550	Delete element
+1674344777197	Delete element
+1674344778953	Delete element
+1674344780563	Delete element
+1674344782113	Delete element
+1674344783763	Delete element
+1674344785705	Delete element
+1674344802251	Move 'MailInfo.java' to 'models'
+1674344941582	Move 'Role.java' to 'models'
+1674344946905	Delete element
+1674344948962	Delete element
+1674344950463	Delete element
+1674344951921	Delete element
+1674344952977	Delete element
+1674344953987	Delete element
+1674344955204	Delete element
+1674344956452	Delete element
+1674344957564	Delete element
+1674345064059	Move 'User.java' to 'models'
+1674345068537	Delete element
+1674345218343	Delete element
+1674345221307	Delete element
+1674345224122	Delete element
+1674345225501	Delete element
+1674345226806	Delete element
+1674345232248	Delete element
+1674345237129	Delete element
+1674345239376	Delete element
+1674345240674	Delete element
+1674345258409	Move 'RoleReponsitory.java' to 'repositories'
+1674345290156	Delete element
+1674345292198	Delete element
+1674345293779	Delete element
+1674345295105	Delete element
+1674345296683	Delete element
+1674345297834	Delete element
+1674345298890	Delete element
+1674345299863	Delete element
+1674345300825	Delete element
+1674345318944	Move 'UserRepository.java' to 'repositories'
+1674345325273	Delete element
+1674345332216	Delete element
+1674345337055	Delete element
+1674345338121	Delete element
+1674345339244	Delete element
+1674345340365	Delete element
+1674345341746	Delete element
+1674345342770	Delete element
+1674345379942	Delete element
+1674345381938	Delete element
+1674345393042	Move 'MailerService.java' to 'services'
+1674345410944	Move 'MailerServiceImpl.java' to 'services'
+1674345435062	Move 'RoleService.java' to 'services'
+1674345436582	Delete element
+1674345439540	Delete element
+1674345440767	Delete element
+1674345441808	Delete element
+1674345442887	Delete element
+1674345443987	Delete element
+1674345445023	Delete element
+1674345451349	Delete element
+1674345452931	Delete element
+1674345480246	Move 'UserService.java' to 'services'
+1674345502461	Move 'UserServiceImpl.java' to 'services'
+1674345512500	Delete element
+1674345590334	Delete element
+1674345597339	Rename resource 'RoleReponsitory.java'

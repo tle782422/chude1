@@ -1,0 +1,17 @@
+package com.truyentranh.webtruyen.security.services;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+import com.truyentranh.webtruyen.security.dto.UserRegistrationDto;
+import com.truyentranh.webtruyen.security.models.User;
+
+import dev.samstevens.totp.exceptions.QrGenerationException;
+
+
+public interface UserServiceImpl extends UserDetailsService{
+	User save(UserRegistrationDto registrationDto);
+    String generateSecretKey();
+    String getQRCode(final String secret) throws QrGenerationException;
+    boolean verifyTotp(final String code, final String secret);
+
+}

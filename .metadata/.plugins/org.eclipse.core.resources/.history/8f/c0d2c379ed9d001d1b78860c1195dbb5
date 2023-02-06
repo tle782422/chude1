@@ -1,0 +1,59 @@
+parent.folder.images.employee=C:\Users\Public\Documents\SpringApplications\storyweb\src\main\resources\static\img\employee
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring.datasource.url = jdbc:mysql://localhost:3306/test?useSSL=false
+spring.datasource.username = root
+spring.datasource.password = 123456789
+
+## Hibernate Properties
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update
+
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type=TRACE
+
+spring.h2.console.enabled=true
+
+spring.session.store-type=jdbc
+spring.session.jdbc.initialize-schema=always
+
+
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.tomcat.max-wait=10000
+spring.datasource.tomcat.max-active=5
+spring.datasource.tomcat.test-on-borrow=true
+
+spring.jpa.show-sql=true
+# Hibernate ddl auto (create, create-drop, update): with "create-drop" the database
+
+# schema will be automatically created afresh for every start of application
+spring.jpa.generate-ddl=false
+#spring.jpa.hibernate.ddl-auto=validate
+# Naming strategy
+
+spring.jpa.hibernate.naming_strategy=org.hibernate.cfg.EJB3NamingStrategy
+
+
+
+# The format used for the keystore. for JKS, set it as JKS
+server.ssl.key-store-type=PKCS12
+# The path to the keystore containing the certificate
+server.ssl.key-store=classpath:keystore/storyweb.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=123456789
+# The alias mapped to the certificate
+server.ssl.key-alias=storyweb
+# Run Spring Boot on HTTPS only
+server.port=8443
+
+# ===============================
+# SEND MAIL CONFIGURATION
+# ===============================
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=587
+mail.mailAddress=hienle01112002@gmail.com
+mail.password=gebbfinfabhkkzop

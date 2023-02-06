@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout">
+<body>
+<div layout:fragment="content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header"><i class="fa fa fa-bars"></i> story Add</h3>
+                <ol class="breadcrumb">
+                    <li><i class="fa fa-home"></i><a href="/products">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/products/storys">story List</a></li>
+                    <li><i class="fa fa-square-o"></i>story Add</li>
+                </ol>
+            </div>
+        </div>
+        <div class="container" style="width: 70%">
+            <form class="form-horizontal" th:action="@{/products/storys}" method="post">
+                <div class="row justify-content-center white-bg">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            New story Record
+                        </header>
+                        <br>
+                        <div class="col-lg-6">
+                            <section class="panel">
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">story Type: </label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" name="storytypeid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="storyType : ${storyTypes}"
+                                                    th:value="${storyType.id}"
+                                                    th:text="${storyType.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtstoryNameAdd" class="col-sm-4 col-form-label">story
+                                        Name: </label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="txtstoryNameAdd" name="name"
+                                               placeholder="story name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtstoryNumberAdd" class="col-sm-4 col-form-label">story
+                                        Number: </label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="txtstoryNumberAdd"
+                                               name="storyNumber" placeholder="story number">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtRegistrationDateAdd" class="col-sm-4 col-form-label">Registration
+                                        Date: </label>
+                                    <div class="col-sm-6">
+                                        <input type="date" class="form-control" id="txtRegistrationDateAdd"
+                                               name="registrationDate" placeholder="Registration date">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtDescriptionAdd" class="col-sm-4 col-form-label">Description: </label>
+                                    <div class="col-sm-6">
+                                        <textarea type="text" class="form-control" id="txtDescriptionAdd"
+                                                  name="description" placeholder="Description" rows="2"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtAcquisitionDateAdd" class="col-sm-4 col-form-label">Acquisition
+                                        Date: </label>
+                                    <div class="col-sm-6">
+                                        <input type="date" class="form-control" id="txtAcquisitionDateAdd"
+                                               name="acquisitionDate" placeholder="Acquisition date">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="ddlstoryMakeAdd" class="col-sm-4 col-form-label">story
+                                        Make: </label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="ddlstoryMakeAdd" name="storymakeid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="storyMake : ${storyMakes}"
+                                                    th:value="${storyMake.id}"
+                                                    th:text="${storyMake.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="ddlstoryModelAdd" class="col-sm-4 col-form-label">story
+                                        Model: </label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="ddlstoryModelAdd" name="storymodelid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="storyModel : ${storyModels}"
+                                                    th:value="${storyModel.id}"
+                                                    th:text="${storyModel.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-lg-6">
+                            <section class="panel">
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">Booklet: </label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="ddlBookletAdd" name="booklet"
+                                               placeholder="Booklet(number)">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtStoryimageAdd" class="col-sm-4 col-form-label">Story
+                                        Image: </label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="txtstoryimageAdd"
+                                               name="storyimage" placeholder="Story Image">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtAuthorAdd" class="col-sm-4 col-form-label">Author: </label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="txtAuthorAdd" name="author"
+                                               placeholder="Author">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtRemarksAdd" class="col-sm-4 col-form-label">Remarks: </label>
+                                    <div class="col-sm-6">
+                                        <textarea type="text" class="form-control" id="txtRemarksAdd" name="remarks"
+                                                  placeholder="Remarks" rows="2"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="ddlEmployeeAdd" class="col-sm-4 col-form-label">In Charge</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="ddlEmployeeAdd" name="employeeid">
+                                            <option th:value="${null}" disabled>-SELECT-</option>
+                                            <option th:each="employee : ${employees}"
+                                                    th:value="${employee.id}"
+                                                    th:text="${employee.firstname}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="ddlCurrentStatusAdd" class="col-sm-4 col-form-label">Current
+                                        Status</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="ddlCurrentStatusAdd" name="storystatusid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="storyStatus : ${storyStatuses}"
+                                                    th:value="${storyStatus.id}"
+                                                    th:text="${storyStatus.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">Select Image: </label>
+                                    <div class="col-sm-6">
+                                        <input type="file" class="form-control-file" id="fupImageAdd" name="photo"
+                                               placeholder="Select File">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="ddlCurrentLocationAdd" class="col-sm-4 col-form-label">Current
+                                        Location</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="ddlCurrentLocationAdd" name="locationid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="location : ${locations}"
+                                                    th:value="${location.id}"
+                                                    th:text="${location.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <br>
+                <div class="row white-bg">
+                    <div class="panel-body">
+                        <button type="submit" class="btn btn-primary">
+                            Save
+                        </button>
+                        <a href="/countries" class="btn  btn-warning">
+                            Exit
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+</body>
+</html>

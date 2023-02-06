@@ -1,0 +1,28 @@
+package com.truyentranh.webtruyen.security.mfa;
+
+import org.springframework.stereotype.Service;
+
+import dev.samstevens.totp.exceptions.QrGenerationException;
+
+@Service
+public class DefaultMFATokenManager implements MFATokenManager {
+
+	@Override
+	public String generateSecretKey() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getQRCode(String secret) throws QrGenerationException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean verifyTotp(String code, String secret) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

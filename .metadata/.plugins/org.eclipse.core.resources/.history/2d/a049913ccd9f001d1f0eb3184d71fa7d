@@ -1,0 +1,66 @@
+window.isMobile = window.innerWidth <= 750;
+var txtLog;
+var countLog = 0;
+const logText = function() {};
+const beforeAuth = (request) => {
+    const token = localStorage.getItem("Authorization");
+    if (!!token) {
+        request.setRequestHeader("Authorization", token);
+    }
+};
+
+const registerPushNotification = (ajaxCallBack, additionCallBack = undefined, deniedCallback = undefined, errorCallback = undefined) => {
+    if (!window.Notification) {
+        console.log("Not support");
+    } else {
+        Notification.requestPermission().then(status => {
+            //Granted
+            if (status === "granted") {
+                if ('serviceWorker' in navigator && 'PushManager' in window) {
+                    messaging.requestPermission().then(() => messaging.getToken({
+                            vapidKey: "BHl6SGKtTUmywlxRJFywQviemtgHCsV5kt-6yiXURsQOhD5m_MJWJg4EW6-75i2kMg9v8anyxbHcLv06o-msSuw"
+                        }))
+                        .then(function(token) {
+                            ajaxCallBack(token).done(res => {
+                                // Todo nothing
+                                if (additionCallBack !== undefined) {
+                                    additionCallBack(status, res);
+                                }
+                            })
+                        });
+                }
+            }
+            if (status === "denied") {
+                deniedCallback(status);
+            }
+        }).catch(e => {
+            if (errorCallback !== undefined) {
+                errorCallback(e, status);
+            }
+        })
+    }
+};
+
+const clearTokenUser = () => {
+    localStorage.removeItem("Authorization");
+    localStorage.removeItem("user_info");
+    localStorage.removeItem("localSession");
+    localStorage.removeItem("tracking-chapter");
+    localStorage.removeItem("history_info");
+};
+const getUserData = () => {
+    const jsonUser = localStorage.getItem("user_info");
+    return !!jsonUser ? JSON.parse(jsonUser) : {};
+};
+
+const doRedirect = (url) => {
+    window.location.href = url;
+};
+logText.toString = function() {
+    if (txtLog !== "end" && countLog === 0) {
+        const url = window.location.href;
+        modal.bannedUser(url + "|OpenConsole")
+    }
+    countLog++;
+    if (countLog === 7) countLog = 0;
+};

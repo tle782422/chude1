@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="vi" xml:lang="vi">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="https://dtruyen.com/frontend/img-thumb/favicon.ico" />
+    <title>Đọc Truyện Online Hay Và Mới Nhất - Dtruyen.com (Webtruyen.com)</title>
+    <meta name="description" content="Dtruyen.com (webtruyen.com) là trang đọc truyện online hay và mới nhất cập nhật liên tục từ những dịch giả hàng đầu trên website.Đặc biệt có phiên bản đọc truyện cho di động."
+    />
+    <meta name="google-site-verification" content="pmml8b8290DK-Iujrgoals2fiWdh6mCb79VoX6P8yfA" />
+    <meta name='dailymotion-domain-verification' content='dm3wjyqzzo32nr7oh' />
+    <link rel="preconnect" href="https://img.dtruyen.com">
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="canonical" href="https://dtruyen.com" />
+    <meta name='ROBOTS' content="INDEX,FOLLOW" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property='og:title' content='Đọc Truyện Online Hay Và Mới Nhất - Dtruyen.com (Webtruyen.com)' />
+    <meta property='og:description' content='Dtruyen.com (webtruyen.com) là trang đọc truyện online hay và mới nhất cập nhật liên tục từ những dịch giả hàng đầu trên website.Đặc biệt có phiên bản đọc truyện cho di động.' />
+    <meta property='og:url' content='https://dtruyen.com' />
+    <meta property='og:site_name' content='main' />
+    <meta property='og:type' content='website' />
+    <meta property="og:image" content="https://dtruyen.com/public/frontend/desk/img/logo_b.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-signin-client_id" content="840898549498-aespl6b0dktpdrgssq2qbhv5st1bna7s.apps.googleusercontent.com">
+    <meta property="fb:app_id" content="212174092286047" />
+    <meta name="coccoc-site-verification" content="aa1d52de7085a9cd38c78570800eee9f" />
+    <meta name="coccoc-site-verification" content="f1f355629671dd623f1970b3b6221f08" />
+    <meta name="apple-itunes-app" content="app-id=1474444373, affiliate-data=webtruyen, app-argument=https://apps.apple.com/us/app/id1474444373">
+    <link rel="preload" href="https://img.dtruyen.com/desktop/css/main.css?v=0.0.3" as="style">
+    <link rel="preload" href="https://img.dtruyen.com/desktop/js/main_events.js" as="script">
+    <style>
+        @charset "utf-8";
+        @font-face {
+            font-family: 'webtruyen_icon';
+            src: url('https://img.dtruyen.com/webtruyen_icon.eot');
+            src: url('https://img.dtruyen.com/webtruyen_icon.eot#iefix') format('embedded-opentype'), url('https://img.dtruyen.com/webtruyen_icon.woff2') format('woff2'), url('https://img.dtruyen.com/webtruyen_icon.woff') format('woff'), url('https://img.dtruyen.com/webtruyen_icon.ttf') format('truetype'), url('https://img.dtruyen.com/webtruyen_icon.svg?#webtruyen_icon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        html {
+            color: #000;
+            background: #eee;
+            overflow-y: scroll;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            scroll-behavior: smooth;
+        }
+
+        html * {
+            outline: 0;
+            -webkit-text-size-adjust: none;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        body,
+        html {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-size: 14px;
+            background: #eee;
+        }
+
+        article,
+        aside,
+        blockquote,
+        body,
+        button,
+        code,
+        dd,
+        details,
+        div,
+        dl,
+        dt,
+        fieldset,
+        figcaption,
+        figure,
+        footer,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        header,
+        hgroup,
+        hr,
+        input,
+        legend,
+        li,
+        menu,
+        nav,
+        ol,
+        p,
+        pre,
+        section,
+        td,
+        textarea,
+        th,
+        ul {
+            margin: 0;
+            padding: 0
+        }
+
+        input,
+        select,
+        textarea {
+            font-size: 100%;
+            font-family: inherit;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        fieldset,
+        img {
+            border: 0
+        }
+
+        abbr,
+        acronym {
+            border: 0;
+            font-variant: normal
+        }
+
+        del {
+            text-decoration: line-through
+        }
+
+        address,
+        caption,
+        cite,
+        code,
+        dfn,
+        th,
+        var {
+            font-style: normal;
+            font-weight: 400
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        caption,
+        th {
+            text-align: left
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 100%;
+            font-weight: 600
+        }
+
+        q:after,
+        q:before {
+            content: ''
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        a,
+        ins {
+            text-decoration: none
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        a {
+            color: #016eb2;
+            text-decoration: none;
+        }
+
+        small {
+            font-size: 0.8em;
+        }
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        [class^="fa-"]:before,
+        [class*=" fa-"]:before {
+            font-family: "webtruyen_icon";
+            font-style: normal;
+            font-weight: normal;
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .fa-user:before {
+            content: '\e800';
+        }
+
+        .fa-tags:before {
+            content: '\e801';
+        }
+
+        .fa-refresh:before {
+            content: '\e802';
+        }
+
+        .fa-eye:before {
+            content: '\e803';
+        }
+
+        .fa-thumbs-o-up:before {
+            content: '\e804';
+        }
+
+        .fa-signal:before {
+            content: '\e805';
+        }
+
+        .fa-cloud-upload:before {
+            content: '\f0ee';
+        }
+
+        .fa-angle-left:before {
+            content: '\f104';
+        }
+
+        .fa-angle-right:before {
+            content: '\f105';
+        }
+
+        .fa-angle-down:before {
+            content: '\f107';
+        }
+
+        .fa-diamond:before {
+            content: '\f219';
+        }
+
+        .fa-search:before {
+            content: '\e80a';
+        }
+
+        .fa-cog:before {
+            content: '\e80b';
+        }
+
+        .fa-off:before {
+            content: '\e80e';
+        }
+
+        .fa-facebook:before {
+            content: '\f09a';
+        }
+
+        .fa-money:before {
+            content: '\f0d6';
+        }
+
+        .fa-history:before {
+            content: '\f1da';
+        }
+
+        .fa-paypal:before {
+            content: '\f1ed';
+        }
+
+        .fa-off:before {
+            content: '\e80e';
+        }
+
+        .fa-heart-empty:before {
+            content: '\e808';
+        }
+
+        .fa-list-bullet:before {
+            content: '\f0ca';
+        }
+
+        .fa-star::before {
+            content: '\e807'
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+        }
+
+        #main {
+            margin-top: 20px;
+        }
+
+        #main-header {
+            height: 50px;
+            background: #2C7ABE;
+            color: #fff;
+        }
+
+        #main-header .logo {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #main-header .logo a {
+            margin: 5px 0;
+            display: block;
+            color: #fff;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 17px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        #main-header .logo a:before {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            margin-right: 10px;
+            background: url(https://img.dtruyen.com/logo-dtruyen.png) no-repeat;
+            background-size: 40px 40px;
+            content: "";
+            vertical-align: middle;
+        }
+
+        #main-header ul.main-nav {
+            float: left;
+        }
+
+        #main-header ul.main-nav>li {
+            float: left;
+            positioN: relative;
+        }
+
+        #main-header ul.main-nav>li>a {
+            padding: 0 15px;
+            height: 50px;
+            line-height: 50px;
+            color: #fff;
+        }
+
+        #main-header ul.main-nav>li ul {
+            position: absolute;
+            left: 0;
+            top: 50px;
+            background: #fff;
+            width: 300px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+            display: none;
+            flex-wrap: wrap;
+            z-index: 9;
+        }
+
+        #main-header ul.main-nav>li:hover ul {
+            display: flex;
+        }
+
+        #main-header ul.main-nav>li ul li {
+            width: 50%;
+            flex-shrink: 0;
+            border-right: 1px solid #ddd;
+            border-top: 1px solid #ddd;
+        }
+
+        #main-header ul.main-nav>li ul li:nth-of-type(2n) {
+            border-right: none;
+        }
+
+        #main-header ul.main-nav>li ul li:nth-of-type(1),
+        #main-header ul.main-nav>li ul li:nth-of-type(2) {
+            border-top: none;
+        }
+
+        #main-header ul.main-nav>li ul li a {
+            padding: 8px 16px;
+            display: block;
+            color: #333;
+            text-decoration: none;
+        }
+
+        #main-header ul.main-nav>li ul li a.vip-link {
+            color: #e74c3c;
+        }
+
+        #main-header ul.main-nav>li ul li.compose-link {
+            width: 100%;
+            text-align: center;
+        }
+
+        #main-header ul.main-nav>li ul li.compose-link a {
+            color: #e74c3c;
+        }
+
+        #main-header ul.main-nav>li ul li a:hover {
+            background: #eee;
+        }
+
+        #search_form {
+            float: left;
+            padding: 8px 10px;
+            position: relative;
+        }
+
+        #search_form input {
+            width: 300px;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 15px;
+            border-radius: 1px;
+            border: none;
+            background: #fff;
+            float: left;
+        }
+
+        #search_form button {
+            background: #e5e6e9;
+            border: none;
+            padding: 0 15px;
+            line-height: 34px;
+            margin-left: 3px;
+            border-radius: 1px;
+        }
+
+        #userPanel {
+            margin-left: auto;
+            height: 50px;
+            position: relative;
+        }
+
+        #userPanel .login-btn {
+            line-height: 50px;
+            color: #fff;
+        }
+
+        .main-col {
+            flex-grow: 1;
+        }
+
+        .right-sidebar {
+            flex-shrink: 0;
+            width: 300px;
+            margin-left: 20px;
+        }
+
+        .card-box {
+            background: #fff;
+            margin-bottom: 12px;
+            border-top: 1px solid #e5e6e9;
+            border-bottom: 1px solid #e5e6e9;
+        }
+
+        .card-box header {
+            padding: 8px 10px;
+            border-bottom: 1px solid #e5e6e9;
+            color: #2F52B2;
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 600;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+        }
+
+        .card-box header i {
+            margin: 0 10px;
+        }
+
+        .card-box footer {
+            text-align: center;
+            padding: 8px 10px;
+        }
+
+        .card-box footer .show-more-btn {
+            padding: 5px 20px;
+            font-size: 14px;
+            border-radius: 15px;
+            background: #737373;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-block;
+        }
+
+        .card-box>nav {
+            padding: 5px;
+            border-bottom: 1px dashed #e5e6e9;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .card-box>nav a {
+            font-size: 13px;
+            letter-spacing: -.5px;
+            display: inline-block;
+            padding: 5px;
+            background: #555;
+            color: #fff;
+            margin-bottom: 5px;
+            border-radius: 2px;
+            flex-shrink: 0;
+            margin-right: 10px;
+        }
+
+        .vip-1:before {
+            display: none;
+            content: "VIP";
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+            width: 27px;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 0 3px;
+            letter-spacing: -1px;
+            margin-left: 5px;
+        }
+
+        .hot-1:before {
+            content: "HOT";
+            color: #2c7abe;
+            border: 1px solid #2c7abe;
+            width: 27px;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 0 3px;
+            letter-spacing: -1px;
+            margin-left: 5px;
+        }
+
+        .story-list .info .label-type-1::before,
+        .story-list .info .label-type-2::before,
+        .story-list .info .label-type-3::before {
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+            width: 27px;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 0 3px;
+            letter-spacing: -1px;
+            margin-left: 5px;
+        }
+
+        .story-list .info .label-type-1::before {
+            content: "SÁNG TÁC";
+        }
+
+        .story-list .info .label-type-2::before {
+            content: "DỊCH";
+        }
+
+        .story-list .info .label-type-3::before {
+            content: "CONVERT";
+        }
+
+        .full-end:before {
+            content: "FULL";
+            color: #090;
+            border: 1px solid #090;
+            width: 27px;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 0 3px;
+            letter-spacing: -1px;
+            margin-left: 5px;
+        }
+
+        .side-description {
+            line-height: 1.3em;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .side-description ul {
+            margin-left: 10px;
+            list-style: disc;
+        }
+
+        #reading-stories {
+            margin: 10px;
+        }
+
+        #reading-stories>div {
+            margin-bottom: 10px;
+            display: flex;
+            background: #ffeecc;
+            border: 1px solid #ffcc66;
+            border-radius: 40px;
+            height: 40px;
+        }
+
+        #reading-stories>div:last-child {
+            margin-bottom: 0;
+        }
+
+        #reading-stories>div>a {
+            flex-grow: 1;
+            overflow: hidden;
+            color: #000;
+        }
+
+        #reading-stories>div>a h5 {
+            display: block;
+            white-space: nowrap;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        #reading-stories>div>a em {
+            margin-right: 20px;
+        }
+
+        #reading-stories>div>a em,
+        #reading-stories>div>a span {
+            font-size: 12px;
+        }
+
+        #reading-stories>div>i {
+            float: left;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        #reading-stories>div>button {
+            flex-shrink: 0;
+            width: 44px;
+            border: none;
+            background: none;
+            font-size: 21px;
+            text-align: center;
+            line-height: 36px;
+            margin: 2px 0;
+            border-left: 1px solid #ffcc66;
+        }
+
+        #reading-stories>div>span {
+            line-height: 40px;
+            flex-shrink: 0;
+            font-size: 13px;
+            text-align: right;
+            margin: 0 5px 0 10px;
+        }
+
+        .promo-author {
+            background: #fff;
+            margin-bottom: 12px;
+            border-top: 1px solid #e5e6e9;
+            border-bottom: 1px solid #e5e6e9;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .promo-author p {
+            margin-bottom: 10px;
+        }
+
+        .promo-author .gogo {
+            display: inline-block;
+            padding: 6px 16px;
+            white-space: nowrap;
+            border-radius: 2px;
+            color: #fff;
+            background: #e91b0c;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        @media print {
+            html,
+            body {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 860px) {
+            #main-header:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            #main-header ul.main-nav>li>a {
+                padding: 0 5px;
+            }
+            #search_form input {
+                width: 170px;
+            }
+            .container {
+                display: block;
+            }
+            .card-box>nav {
+                overflow: scroll;
+            }
+            .right-sidebar {
+                width: auto;
+                margin-right: 20px;
+            }
+            #userPanel {
+                float: right;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            #header {
+                height: 100px;
+            }
+        }
+
+        .swipe-stories {
+            margin: 10px 5px;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .swipe-stories ul {
+            display: flex;
+            transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -o-transform: translateX(0);
+            -moz-transform: translateX(0);
+        }
+
+        .swipe-stories ul li {
+            width: 33.3334%;
+            flex-shrink: 0;
+            padding: 0 5px;
+        }
+
+        .swipe-stories .direction-btn {
+            position: absolute;
+            top: 35%;
+            height: 100px;
+            margin-top: -50px;
+            line-height: 100px;
+            z-index: 9;
+            font-size: 5rem;
+            color: #fff;
+            text-shadow: 0 0 10px #000;
+        }
+
+        .swipe-stories .direction-btn.disabled {
+            opacity: 0.2;
+        }
+
+        .swipe-stories .direction-btn.prev {
+            left: 15px;
+        }
+
+        .swipe-stories .direction-btn.next {
+            right: 15px;
+        }
+
+        .story-hot {
+            background: #fff;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .story-hot .thumb {
+            display: block;
+        }
+
+        .story-hot .thumb img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .story-hot .info {
+            padding: 8px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+        }
+
+        .story-hot .title a {
+            color: #fff;
+        }
+
+        .story-hot .last-chapter {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .grid-stories {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .story-grid {
+            width: 152px;
+        }
+
+        .story-grid .thumb {
+            display: block;
+            position: relative;
+        }
+
+        .story-grid .thumb img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .story-grid .thumb .label-type-1,
+        .story-grid .thumb .label-type-2,
+        .story-grid .thumb .label-type-3 {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 45px;
+            height: 52px;
+            line-height: 36px;
+            background: url(https://img.dtruyen.com/badge2.svg) no-repeat;
+            background-size: contain;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .story-grid .thumb .label-type-1::before {
+            content: "ST"
+        }
+
+        .story-grid .thumb .label-type-2::before {
+            content: "D"
+        }
+
+        .story-grid .thumb .label-type-3::before {
+            content: "CV"
+        }
+
+        .story-grid .info {
+            padding: 8px;
+            text-align: center;
+        }
+
+        .story-grid .title a {
+            color: #000;
+        }
+
+        .story-grid .last-chapter {
+            color: #888;
+            font-size: 12px;
+        }
+
+        .story-list {
+            display: flex;
+            padding: 8px 10px;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .story-list:hover {
+            background: #eee;
+        }
+
+        .story-list .info {
+            flex-grow: 1;
+        }
+
+        .story-list .info .title {
+            font-size: 15px;
+            line-height: 14px;
+            font-weight: 500;
+            display: inline;
+            letter-spacing: -0.5px;
+            text-transform: capitalize;
+        }
+
+        .story-list .info .title a {
+            color: #444;
+        }
+
+        .story-list .last-chapter,
+        .story-list .last-updated {
+            font-size: 13px;
+            color: #707070;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .story-list .last-chapter {
+            width: 140px;
+        }
+
+        .story-list .last-updated {
+            width: 100px;
+        }
+
+        .categories a {
+            width: 50%;
+            float: left;
+            padding: 6px 6px 6px 20px;
+            color: #444;
+            text-transform: capitalize;
+        }
+
+        .categories a:nth-of-type(1),
+        .categories a:nth-of-type(2),
+        .categories a:nth-of-type(3),
+        .categories a:nth-of-type(4) {
+            font-weight: 600;
+            color: #df1a0c;
+        }
+
+        .categories a:before {
+            font-family: webtruyen_icon;
+            display: inline-block;
+            vertical-align: baseline;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\e801";
+            margin-right: 5px;
+        }
+
+        .categories a:nth-of-type(1):before,
+        .categories a:nth-of-type(2):before,
+        .categories a:nth-of-type(3):before,
+        .categories a:nth-of-type(4):before {
+            content: "\f219";
+        }
+
+        .news-item .thumb {
+            width: 70px;
+            padding: 10px;
+            float: left;
+        }
+
+        .news-item .thumb img {
+            height: auto;
+        }
+
+        .news-item .title {
+            padding-top: 10px;
+            padding-right: 10px;
+            font-weight: normal;
+            margin-left: 70px;
+        }
+
+        .news-item .title a {
+            color: #444;
+            text-transform: capitalize;
+        }
+
+        .story-top {
+            border-bottom: 1px dashed #e5e6e9;
+        }
+
+        .story-top:before {
+            width: 50px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            font-weight: 200;
+            font-size: 25px;
+            letter-spacing: -.5px;
+            color: #2980b9;
+            float: left;
+        }
+
+        .top-stories .story-top:nth-of-type(1):before {
+            content: "01";
+            color: #e74c3c;
+        }
+
+        .top-stories .story-top:nth-of-type(2):before {
+            content: "02";
+            color: #3a833c;
+        }
+
+        .top-stories .story-top:nth-of-type(3):before {
+            content: "03";
+            color: #8f6b00;
+        }
+
+        .top-stories .story-top:nth-of-type(4):before {
+            content: "04";
+        }
+
+        .top-stories .story-top:nth-of-type(5):before {
+            content: "05";
+        }
+
+        .top-stories .story-top:nth-of-type(6):before {
+            content: "06";
+        }
+
+        .top-stories .story-top:nth-of-type(7):before {
+            content: "07";
+        }
+
+        .top-stories .story-top:nth-of-type(8):before {
+            content: "08";
+        }
+
+        .top-stories .story-top:nth-of-type(9):before {
+            content: "09";
+        }
+
+        .top-stories .story-top:nth-of-type(10):before {
+            content: "10";
+        }
+
+        .story-top:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .story-top .title {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -1px;
+            padding-top: 6px;
+            padding-right: 6px;
+            overflow: hidden;
+        }
+
+        .story-top .title a {
+            color: #333;
+        }
+
+        .story-top .viewed {
+            color: #757575;
+            font-size: 11px;
+        }
+
+        .short-stories {
+            display: flex;
+        }
+
+        .short-stories .large {
+            width: 345px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .short-stories .large .short-story {
+            position: relative;
+        }
+
+        .short-stories .large .title {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .short-stories .large .title a {
+            color: #fff;
+        }
+
+        .short-stories .small {
+            flex-grow: 1;
+        }
+
+        .short-stories .small .short-story {
+            margin-bottom: 5px;
+        }
+
+        .short-stories .small .thumb {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .short-stories .small .title {
+            font-weight: normal;
+        }
+
+        .short-stories .small .title a {
+            color: #333;
+        }
+    </style>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MCG6LV5');
+    </script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+    <header id="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="https://dtruyen.com/" title="doc truyen online">doc truyen online</a></h1>
+            <ul class="main-nav">
+                <li><a href="#" rel="nofollow"><i class="fa-tags"></i> Thể loại</a>
+                    <ul>
+                        <li><a title="Truyện tiên hiệp" href="https://dtruyen.com/tien-hiep/"><i class="fa fa-tags"></i> Tiên Hiệp</a></li>
+                        <li><a title="Truyện kiếm hiệp" href="https://dtruyen.com/kiem-hiep/"><i class="fa fa-tags"></i> Kiếm Hiệp</a></li>
+                        <li><a title="Truyện ngôn tình" href="https://dtruyen.com/ngon-tinh/"><i class="fa fa-tags"></i> Ngôn Tình</a></li>
+                        <li><a href="https://dtruyen.com/truyen-teen/" title="Truyện Teen"><i class="fa fa-tags"></i> Truyện Teen</a></li>
+                        <li><a href="https://dtruyen.com/do-thi/" title="Truyện đô Thị"><i class="fa fa-tags"></i> Đô Thị</a></li>
+                        <li><a href="https://dtruyen.com/quan-su/" title="Truyện quân sự"><i class="fa fa-tags"></i> Quân Sự</a></li>
+                        <li><a href="https://dtruyen.com/lich-su/" title="Truyện lịch sử"><i class="fa fa-tags"></i> Lịch Sử</a></li>
+                        <li><a href="https://dtruyen.com/xuyen-khong/" title="Truyện xuyên Không"><i class="fa fa-tags"></i> Xuyên Không</a></li>
+                        <li><a href="https://dtruyen.com/truyen-ma/" title="Truyện ma"><i class="fa fa-tags"></i> Truyện Ma</a></li>
+                        <li><a href="https://dtruyen.com/truyen-trinh-tham/" title="Truyện trinh thám"><i class="fa fa-tags"></i> Trinh Thám</a></li>
+                        <li><a href="https://dtruyen.com/huyen-huyen/" title="Truyện huyền Huyễn"><i class="fa fa-tags"></i> Huyền Huyễn</a></li>
+                        <li><a href="https://dtruyen.com/khoa-huyen/" title="Truyện khoa Huyễn"><i class="fa fa-tags"></i> Khoa Huyễn</a></li>
+                        <li><a href="https://dtruyen.com/di-gioi/" title="Truyện dị Giới"><i class="fa fa-tags"></i> Dị Giới</a></li>
+                        <li><a href="https://dtruyen.com/vong-du/" title="Truyện võng Du"><i class="fa fa-tags"></i> Võng Du</a></li>
+                        <li><a href="https://dtruyen.com/truyen-ngan/" title="Truyện Ngắn"><i class="fa fa-tags"></i> Truyện Ngắn</a></li>
+                        <li><a href="https://dtruyen.com/truyen-cuoi/" title="Truyện Cười"><i class="fa fa-tags"></i> Truyện Cười</a></li>
+                        <li><a href="https://dtruyen.com/tieu-thuyet/" title="Truyện Tiểu Thuyết"><i class="fa fa-tags"></i> Tiểu Thuyết</a></li>
+                        <li><a href="https://dtruyen.com/review/" title="Review truyện"><i class="fa fa-tags"></i> Review</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" rel="nofollow"><i class="fa-list-bullet"></i> Sắp xếp</a>
+                    <ul>
+                        <li><a href="https://dtruyen.com/truyen-dich/" title="Truyện Dịch" class="vip-link"><i class="fa fa-diamond"></i> Truyện Dịch</a></li>
+                        <li><a href="https://dtruyen.com/all/"><i class="fa fa-refresh"></i> Mới Cập Nhật</a></li>
+                        <li><a href="https://dtruyen.com/truyen-moi-dang/" title="Truyện mới đăng"><i class="fa fa-cloud-upload"></i> Mới Đăng</a></li>
+                        <li><a href="https://dtruyen.com/truyen-duoc-xem-nhieu-nhat/" title="Truyện đọc nhiều"><i class="fa fa-eye"></i> Xem Nhiều</a></li>
+                        <li><a href="https://dtruyen.com/truyen-duoc-yeu-thich-nhat/" title="Truyện được yêu thích"><i class="fa fa-thumbs-o-up"></i> Yêu Thích</a></li>
+                        <li><a href="https://dtruyen.com/truyen-full/" title="Truyện full"><i class="fa fa-signal"></i> Truyện Full</a></li>
+                        <li class="compose-link"><a href="https://dtruyen.com/truyen-sang-tac/" title="Truyện Sáng Tác"><i class="fa fa-star"></i> Thành Viên Sáng Tác</a></li>
+                    </ul>
+                </li>
+                <li style="background:#df1a0c;"><a href="https://dtruyen.com/author/session/login/" title="Đăng truyện" rel="nofollow" target="_blank"><i class="fa fa-cloud-upload"></i> Đăng truyện</a></li>
+            </ul>
+            <div id="search_form" itemscope itemtype="https://schema.org/WebSite">
+                <meta itemprop="url" content="https://dtruyen.com/" />
+                <form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" role="search" method="get" action="https://dtruyen.com/search/">
+                    <meta itemprop="target" content="https://dtruyen.com/search/?key={key}" /> <input itemprop="query-input" type="text" id="key" name="key" aria-label="Từ khóa tìm kiếm" placeholder="Tìm truyện, tác giả..." autocomplete="off"> <button name="action_search" id="searchsubmit" type="submit" aria-label="Tìm kiếm"><i class="fa fa-search"></i></button>                    </form>
+                <div id="search_result"></div>
+            </div>
+            <div id="userPanel"></div>
+        </div>
+    </header>
+    <!--<div id="truyen-sticky" style="background-color: antiquewhite; padding: 0 3px;line-height:30px; text-align: center; margin: 0;height:40px;overflow: hidden;"></div>-->
+    <!--<a href="https://dtruyen.com/author/session/login/" rel="nofollow" target="_blank" style="display:block;margin: 10px auto; max-width:728px;width:100%;" id="click-author-banner"><img src="" data-layzr="https://img.dtruyen.com/content-writing-banner-desktop.jpg" alt="Banner Content Writer" width="728" height="90"/></a>-->
+    <div id="main" class="main" data-type="home" role="main" itemscope itemprop="mainContentOfPage">
+        <div class="container">
+            <div class="main-col">
+                <section class="card-box">
+                    <header>
+                        <h2>TRUYỆN ĐỀ CỬ <i class="fa fa-angle-right"></i></h2>
+                    </header>
+                    <nav><a href="https://dtruyen.com/truyen-ngon-tinh-hay/" title="Truyện Ngôn Tình Hay">Ngôn Tình</a><a href="https://dtruyen.com/truyen-truyen-teen-hay/" title="Truyện Teen Hay">Truyện Teen</a><a href="https://dtruyen.com/truyen-tien-hiep-hay/"
+                            title="Truyện Tiên Hiệp Hay">Tiên Hiệp</a><a href="https://dtruyen.com/truyen-kiem-hiep-hay/" title="Truyện Kiếm Hiệp Hay">Kiếm Hiệp</a><a href="https://dtruyen.com/truyen-xuyen-khong-hay/" title="Truyện Xuyên Không Hay">Xuyên Không</a></nav>
+                    <div class="swipe-stories">
+                        <ul>
+                            <li>
+                                <div class="story-hot" data-id="39187" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-90-mot-chieu-de-trong-sinh/" title="[Thập Niên 90] Một Chiêu Đệ Trọng Sinh" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/thapnien90motchieudetrongsinhixvcadSqEV.jpg" itemprop="image" class="cover" width="220" height="283" alt="[Thập Niên 90] Một Chiêu Đệ Trọng Sinh"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-90-mot-chieu-de-trong-sinh/" itemprop="url" title="[Thập Niên 90] Một Chiêu Đệ Trọng Sinh">[Thập Niên 90] Một Chiêu Đệ Trọng Sinh</a></h3>
+                                        <p class="last-chapter">Full</p>
+                                        <meta itemprop="author" content="Dục Hỏa Tiểu Hùng Miêu"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                            <li>
+                                <div class="story-hot" data-id="40110" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/nu-phu-hao-mon-sau-khi-thuc-tinh/" title="Nữ Phụ Hào Môn Sau Khi Thức Tỉnh" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/nuphuhaomonsaukhithuctinhCv1hqK7nrt.jpg" itemprop="image" class="cover" width="220" height="283" alt="Nữ Phụ Hào Môn Sau Khi Thức Tỉnh"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/nu-phu-hao-mon-sau-khi-thuc-tinh/" itemprop="url" title="Nữ Phụ Hào Môn Sau Khi Thức Tỉnh">Nữ Phụ Hào Môn Sau Khi Thức Tỉnh</a></h3>
+                                        <p class="last-chapter">Full</p>
+                                        <meta itemprop="author" content="Thư Thư Thư"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                            <li>
+                                <div class="story-hot" data-id="39191" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-70-my-nhan-tuyet-sac-den-nong-truong/" title="[Thập Niên 70] Mỹ Nhân Tuyệt Sắc Đến Nông Trường" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/thapnien70mynhantuyetsacdennongtruong6UzdUVlHcF.jpg" itemprop="image" class="cover" width="220" height="283" alt="[Thập Niên 70] Mỹ Nhân Tuyệt Sắc Đến Nông Trường"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-my-nhan-tuyet-sac-den-nong-truong/" itemprop="url" title="[Thập Niên 70] Mỹ Nhân Tuyệt Sắc Đến Nông Trường">[Thập Niên 70] Mỹ Nhân Tuyệt Sắc Đến Nông Trường</a></h3>
+                                        <p
+                                            class="last-chapter">Full</p>
+                                            <meta itemprop="author" content="Ngũ Diệp Đàm"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                            <li>
+                                <div class="story-hot" data-id="39648" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-90-xuyen-thanh-vo-truoc-cua-nha-giau-moi-noi/" title="[Thập Niên 90] Xuyên Thành Vợ Trước Của Nhà Giàu Mới Nổi" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/thapnien90xuyenthanhvotruoccuanhagiaumoinoicLCoFSgzsi.jpg" itemprop="image" class="cover" width="220" height="283" alt="[Thập Niên 90] Xuyên Thành Vợ Trước Của Nhà Giàu Mới Nổi"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-90-xuyen-thanh-vo-truoc-cua-nha-giau-moi-noi/" itemprop="url" title="[Thập Niên 90] Xuyên Thành Vợ Trước Của Nhà Giàu Mới Nổi">[Thập Niên 90] Xuyên Thành Vợ Trước Của Nhà Giàu Mới Nổi</a></h3>
+                                        <p class="last-chapter">Full</p>
+                                        <meta itemprop="author" content="Tuyết Gia"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                            <li>
+                                <div class="story-hot" data-id="37038" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-80-tai-hon/" title="[Thập Niên 80] Tái Hôn" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/thapnien80taihonf6sgNFjAGq.jpg" itemprop="image" class="cover" width="220" height="283" alt="[Thập Niên 80] Tái Hôn"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-80-tai-hon/" itemprop="url" title="[Thập Niên 80] Tái Hôn">[Thập Niên 80] Tái Hôn</a></h3>
+                                        <p class="last-chapter">Full</p>
+                                        <meta itemprop="author" content="Nữ vương không ở nhà"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                            <li>
+                                <div class="story-hot" data-id="39241" itemscope="" itemtype="https://schema.org/Book">
+                                    <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-80-song-lai-phan-dau-lam-giau/" title="[Thập Niên 80] Sống Lại Phấn Đấu Làm Giàu" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/large/thapnien80songlaiphandaulamgiauPPEpZRfHpB.jpg" itemprop="image" class="cover" width="220" height="283" alt="[Thập Niên 80] Sống Lại Phấn Đấu Làm Giàu"> </a>
+                                    <div class="info">
+                                        <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-80-song-lai-phan-dau-lam-giau/" itemprop="url" title="[Thập Niên 80] Sống Lại Phấn Đấu Làm Giàu">[Thập Niên 80] Sống Lại Phấn Đấu Làm Giàu</a></h3>
+                                        <p class="last-chapter">Full</p>
+                                        <meta itemprop="author" content="Thủy Tinh Phỉ Thúy Nhục"> </div><span class="label-status-end"></span><span class="label-hot-1"></span> <label class="label label-type-2"></label> </div>
+                            </li>
+                        </ul> <a href="#" rel="nofollow" class="direction-btn prev" title="Prev"><i class="fa fa-angle-left"></i></a><a href="#" rel="nofollow" class="direction-btn next" title="Next"><i class="fa fa-angle-right"></i></a> </div>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/truyen-dich/" title="Truyện Dịch Chọn lọc">TRUYỆN DỊCH CHỌN LỌC <i class="fa fa-angle-right"></i></a></header>
+                    <div class="grid-stories">
+                        <div class="story-grid" data-id="27681" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/dan-hoang-vo-de/" title="Đan Hoàng Võ Đế" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/danhoangvode8NfKL5lxYe.jpg" itemprop="image" class="cover" width="164" height="211" alt="Đan Hoàng Võ Đế"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/dan-hoang-vo-de/" itemprop="url" title="Đan Hoàng Võ Đế">Đan Hoàng Võ Đế</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Thực Nghiệm Tiểu Bạch Thử"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="20476" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/tieu-dao-tieu-thu-sinh/" title="Tiêu Dao Tiểu Thư Sinh" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/tieudaotieuthusinhtoIAEeqNAC.jpg" itemprop="image" class="cover" width="164" height="211" alt="Tiêu Dao Tiểu Thư Sinh"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tieu-dao-tieu-thu-sinh/" itemprop="url" title="Tiêu Dao Tiểu Thư Sinh">Tiêu Dao Tiểu Thư Sinh</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Vinh Tiểu Vinh"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="27808" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/khau-van-tien-dao/" title="Khấu Vấn Tiên Đạo" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/khauvantiendaojFseicA.jpg" itemprop="image" class="cover" width="164" height="211" alt="Khấu Vấn Tiên Đạo"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/khau-van-tien-dao/" itemprop="url" title="Khấu Vấn Tiên Đạo">Khấu Vấn Tiên Đạo</a></h3>
+                                <p class="last-chapter">Chương 1985</p>
+                                <meta itemprop="author" content="Vũ Đả Thanh Thạch"> </div><span class="label-status-ongoing"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="40327" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-tro-ve-thoi-dai-thieu-nu/" title="[Thập Niên] Trở Về Thời Đại Thiếu Nữ" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thapnientrovethoidaithieunuiezeFVlq7x.jpg" itemprop="image" class="cover" width="164" height="211" alt="[Thập Niên] Trở Về Thời Đại Thiếu Nữ"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-tro-ve-thoi-dai-thieu-nu/" itemprop="url" title="[Thập Niên] Trở Về Thời Đại Thiếu Nữ">[Thập Niên] Trở Về Thời Đại Thiếu Nữ</a></h3>
+                                <p class="last-chapter">Chương 84</p>
+                                <meta itemprop="author" content="Tống Hàng Hàng"> </div><span class="label-status-ongoing"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="38237" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-70-xuyen-thanh-to-doi-chieu-me-ke-trong-van-nien-dai/" title="Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thapnien70xuyenthanhtodoichieumeketrongvanniendaihc93V31.jpg" itemprop="image" class="cover" width="164" height="211" alt="Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-xuyen-thanh-to-doi-chieu-me-ke-trong-van-nien-dai/" itemprop="url" title="Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại">Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="La Tử Phùng"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="39392" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-70-tro-thanh-nu-xung-nuoi-con-lam-giau/" title="Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu " class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/nuxungnuoiconothapnien70Lo9omB9.jpg" itemprop="image" class="cover" width="164" height="211" alt="Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu "> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-tro-thanh-nu-xung-nuoi-con-lam-giau/" itemprop="url" title="Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu ">Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu </a></h3>
+                                <p
+                                    class="last-chapter">Full</p>
+                                    <meta itemprop="author" content="Soa Điểm Biến Thành Mỹ Nữ"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="40949" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-70-phan-dau-lam-giau/" title="Thập Niên 70: Phấn Đấu Làm Giàu" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thapnien70phandaulamgiaufZUvtxs.jpg" itemprop="image" class="cover" width="164" height="211" alt="Thập Niên 70: Phấn Đấu Làm Giàu"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-phan-dau-lam-giau/" itemprop="url" title="Thập Niên 70: Phấn Đấu Làm Giàu">Thập Niên 70: Phấn Đấu Làm Giàu</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Hồ Mạch"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="41525" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thap-nien-70-dung-lam-cha-me-thua-tren-vach-xuat-phat/" title="[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thapnien70dunglamchamethuatrenvachxuatphatJxTwTbE.jpg" itemprop="image" class="cover" width="164" height="211" alt="[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát"> <label class="label label-type-2"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-dung-lam-cha-me-thua-tren-vach-xuat-phat/" itemprop="url" title="[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát">[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát</a></h3>
+                                <p class="last-chapter">Chương 132</p>
+                                <meta itemprop="author" content="Hạp Kim"> </div><span class="label-status-ongoing"></span><span class="label-hot-0"></span></div>
+                    </div>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="TRUYỆN DỊCH CHỌN LỌC" href="https://dtruyen.com/truyen-dich/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/all/" title="Truyện Mới Cập Nhật">Truyện Mới Cập Nhật <i class="fa fa-angle-right"></i></a></header>
+                    <nav>
+                        <div><a href="https://dtruyen.com/ngon-tinh/" title="Truyện Ngôn Tình">Ngôn Tình</a><a href="https://dtruyen.com/truyen-teen/" title="Truyện Teen">Truyện Teen</a><a href="https://dtruyen.com/tien-hiep/" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                            <a
+                                href="https://dtruyen.com/kiem-hiep/" title="Truyện Kiếm Hiệp">Kiếm Hiệp</a><a href="https://dtruyen.com/xuyen-khong/" title="Truyện Xuyên Không">Xuyên Không</a></div>
+                    </nav>
+                    <div class="list-stories">
+                        <ul>
+                            <li class="story-list" data-id="35985" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/chu-tich-nghien-sung/" itemprop="url" title="Chủ Tịch Nghiện Sủng">Chủ Tịch Nghiện Sủng</a></h3> <span class="vip-0"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author"
+                                        content="Phương Bất Ky"> </div>
+                                <p class="last-chapter">Chương 36</p>
+                                <p class="last-updated">1674993380</p>
+                            </li>
+                            <li class="story-list" data-id="44250" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-my-nhan-kieu-mem/" itemprop="url" title="Thập Niên 70: Mỹ Nhân Kiều Mềm">Thập Niên 70: Mỹ Nhân Kiều Mềm</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Tiểu Cầm Bảo"> </div>
+                                <p class="last-chapter">Chương 138</p>
+                                <p class="last-updated">1674993275</p>
+                            </li>
+                            <li class="story-list" data-id="42714" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/nuong-tu-chi-thich-lam-ruong/" itemprop="url" title="Nương Tử Chỉ Thích Làm Ruộng">Nương Tử Chỉ Thích Làm Ruộng</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Úc Vũ Trúc"> </div>
+                                <p class="last-chapter">Chương 208</p>
+                                <p class="last-updated">1674993232</p>
+                            </li>
+                            <li class="story-list" data-id="27681" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/dan-hoang-vo-de/" itemprop="url" title="Đan Hoàng Võ Đế">Đan Hoàng Võ Đế</a></h3> <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Thực Nghiệm Tiểu Bạch Thử"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674993214</p>
+                            </li>
+                            <li class="story-list" data-id="20476" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tieu-dao-tieu-thu-sinh/" itemprop="url" title="Tiêu Dao Tiểu Thư Sinh">Tiêu Dao Tiểu Thư Sinh</a></h3> <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author"
+                                        content="Vinh Tiểu Vinh"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674993173</p>
+                            </li>
+                            <li class="story-list" data-id="27808" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/khau-van-tien-dao/" itemprop="url" title="Khấu Vấn Tiên Đạo">Khấu Vấn Tiên Đạo</a></h3> <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Vũ Đả Thanh Thạch"> </div>
+                                <p class="last-chapter">Chương 1985</p>
+                                <p class="last-updated">1674992860</p>
+                            </li>
+                            <li class="story-list" data-id="42567" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-ga-cho-doi-thu-mot-mat-mot-con/" itemprop="url" title="Thập Niên 70: Gả Cho Đối Thủ Một Mất Một Còn">Thập Niên 70: Gả Cho Đối Thủ Một Mất Một Còn</a></h3> <span class="vip-2"></span>                                    <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Tùng Thử Tuý Ngư"> </div>
+                                <p class="last-chapter">Chương 323</p>
+                                <p class="last-updated">1674991612</p>
+                            </li>
+                            <li class="story-list" data-id="43517" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/vo-dao-truong-sinh-bat-dau-tu-thuat-noi-dan/" itemprop="url" title="Võ Đạo Trường Sinh Bắt Đầu Từ Thuật Nội Đan">Võ Đạo Trường Sinh Bắt Đầu Từ Thuật Nội Đan</a></h3> <span class="vip-2"></span>                                    <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Hắc Nguyên Bạch"> </div>
+                                <p class="last-chapter">Chương 80</p>
+                                <p class="last-updated">1674991492</p>
+                            </li>
+                            <li class="story-list" data-id="44525" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/than-cap-may-man/" itemprop="url" title="Thần Cấp May Mắn">Thần Cấp May Mắn</a></h3> <span class="vip-0"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Thiên Cơ Đường Hồng Đậu"> </div>
+                                <p class="last-chapter">Chương 15</p>
+                                <p class="last-updated">1674991465</p>
+                            </li>
+                            <li class="story-list" data-id="42906" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-80-tro-thanh-cuc-pham-trong-truyen-thap-nien/" itemprop="url" title="Thập Niên 80 – Trở Thành Cực Phẩm Trong Truyện Thập Niên">Thập Niên 80 – Trở Thành Cực Phẩm Trong Truyện Thập Niên</a></h3>
+                                    <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Địch Bách Lý"> </div>
+                                <p class="last-chapter">Chương 615</p>
+                                <p class="last-updated">1674991453</p>
+                            </li>
+                            <li class="story-list" data-id="43489" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/trong-sinh-chi-ngoc-nu/" itemprop="url" title="Trọng Sinh Chi Ngốc Nữ">Trọng Sinh Chi Ngốc Nữ</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author"
+                                        content="Tử Hằng"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674991089</p>
+                            </li>
+                            <li class="story-list" data-id="44443" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/vo-cu-thanh-nien-tri-thuc-trong-sinh/" itemprop="url" title="Vợ Cũ Thanh Niên Tri Thức Trọng Sinh">Vợ Cũ Thanh Niên Tri Thức Trọng Sinh</a></h3> <span class="vip-0"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Triều Lộ Thần Hi"> </div>
+                                <p class="last-chapter">Chương 15</p>
+                                <p class="last-updated">1674991048</p>
+                            </li>
+                            <li class="story-list" data-id="39362" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tro-lai-thap-nien-70-ga-cho-nam-xung-xui-xeo/" itemprop="url" title="Trở Lại Thập Niên 70: Gả Cho Nam Xứng Xui Xẻo">Trở Lại Thập Niên 70: Gả Cho Nam Xứng Xui Xẻo</a></h3> <span class="vip-2"></span>                                    <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Dạ Tử Vũ"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990788</p>
+                            </li>
+                            <li class="story-list" data-id="36356" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-nguoi-me-danh-da/" itemprop="url" title="Thập Niên 70: Người Mẹ Đanh Đá">Thập Niên 70: Người Mẹ Đanh Đá</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Đào Hoa Lộ"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990771</p>
+                            </li>
+                            <li class="story-list" data-id="40841" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thien-su-lo/" itemprop="url" title="Thiên Sư Lộ">Thiên Sư Lộ</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="AD"> </div>
+                                <p class="last-chapter">Chương 358</p>
+                                <p class="last-updated">1674990637</p>
+                            </li>
+                            <li class="story-list" data-id="40327" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-tro-ve-thoi-dai-thieu-nu/" itemprop="url" title="[Thập Niên] Trở Về Thời Đại Thiếu Nữ">[Thập Niên] Trở Về Thời Đại Thiếu Nữ</a></h3> <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Tống Hàng Hàng"> </div>
+                                <p class="last-chapter">Chương 84</p>
+                                <p class="last-updated">1674990418</p>
+                            </li>
+                            <li class="story-list" data-id="43012" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-60-xuyen-thanh-me-ke-goa-phu/" itemprop="url" title="Thập Niên 60: Xuyên Thành Mẹ Kế Góa Phụ">Thập Niên 60: Xuyên Thành Mẹ Kế Góa Phụ</a></h3> <span class="vip-2"></span>
+                                    <label
+                                        class="label label-type-2"></label>
+                                        <meta itemprop="author" content="Lâm Quả Đống"> </div>
+                                <p class="last-chapter">Chương 357</p>
+                                <p class="last-updated">1674990348</p>
+                            </li>
+                            <li class="story-list" data-id="41708" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-nang-dau-duoc-gui-qua-buu-dien/" itemprop="url" title="Thập Niên 70: Nàng Dâu Được Gửi Qua Bưu Điện">Thập Niên 70: Nàng Dâu Được Gửi Qua Bưu Điện</a></h3> <span class="vip-2"></span>                                    <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Lưu Trư Trư"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990190</p>
+                            </li>
+                            <li class="story-list" data-id="42489" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/xuyen-sach-cuoc-song-vo-chong-nuoi-con-hang-ngay-o-70/" itemprop="url" title="Xuyên Sách: Cuộc Sống Vợ Chồng Nuôi Con Hằng Ngày Ở 70">Xuyên Sách: Cuộc Sống Vợ Chồng Nuôi Con Hằng Ngày Ở 70</a></h3>
+                                    <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Lưu Yên La"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990166</p>
+                            </li>
+                            <li class="story-list" data-id="41706" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-song-cung-vai-ac-ba-nhan-cach/" itemprop="url" title="Thập Niên 70: Sống Cùng Vai Ác Ba Nhân Cách">Thập Niên 70: Sống Cùng Vai Ác Ba Nhân Cách</a></h3> <span class="vip-2"></span>                                    <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Ngô Nãi Cha Già"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990148</p>
+                            </li>
+                            <li class="story-list" data-id="43607" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-80-thu-truong-om-mot-cai/" itemprop="url" title="Thập Niên 80: Thủ Trưởng, Ôm Một Cái!">Thập Niên 80: Thủ Trưởng, Ôm Một Cái!</a></h3> <span class="vip-2"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Thanh Tri Hứa"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990128</p>
+                            </li>
+                            <li class="story-list" data-id="38237" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-xuyen-thanh-to-doi-chieu-me-ke-trong-van-nien-dai/" itemprop="url" title="Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại">Thập Niên 70: Xuyên Thành Tổ Đối Chiếu Mẹ Kế Trong Văn Niên Đại</a></h3>
+                                    <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="La Tử Phùng"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990036</p>
+                            </li>
+                            <li class="story-list" data-id="39392" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-tro-thanh-nu-xung-nuoi-con-lam-giau/" itemprop="url" title="Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu ">Thập Niên 70: Trở Thành Nữ Xứng Nuôi Con, Làm Giàu </a></h3>
+                                    <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Soa Điểm Biến Thành Mỹ Nữ"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674990016</p>
+                            </li>
+                            <li class="story-list" data-id="40949" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-phan-dau-lam-giau/" itemprop="url" title="Thập Niên 70: Phấn Đấu Làm Giàu">Thập Niên 70: Phấn Đấu Làm Giàu</a></h3> <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Hồ Mạch"> </div>
+                                <p class="last-chapter">Full</p>
+                                <p class="last-updated">1674989985</p>
+                            </li>
+                            <li class="story-list" data-id="41525" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <div class="info">
+                                    <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thap-nien-70-dung-lam-cha-me-thua-tren-vach-xuat-phat/" itemprop="url" title="[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát">[Thập Niên 70] Đừng Làm Cha Mẹ Thua Trên Vạch Xuất Phát</a></h3>
+                                    <span class="vip-1"></span> <label class="label label-type-2"></label>
+                                    <meta itemprop="author" content="Hạp Kim"> </div>
+                                <p class="last-chapter">Chương 132</p>
+                                <p class="last-updated">1674989966</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="Truyện mới cập nhật" href="https://dtruyen.com/all/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/truyen-full/" title="Truyện Full">Truyện Full <i class="fa fa-angle-right"></i></a></header>
+                    <nav>
+                        <div><a href="https://dtruyen.com/truyen-ngon-tinh-full/" title="Truyện Ngôn Tình Full">Ngôn Tình</a><a href="https://dtruyen.com/truyen-truyen-teen-full/" title="Truyện Teen Full">Truyện Teen</a><a href="https://dtruyen.com/truyen-tien-hiep-full/"
+                                title="Truyện Tiên Hiệp Full">Tiên Hiệp</a><a href="https://dtruyen.com/truyen-kiem-hiep-full/" title="Truyện Kiếm Hiệp Full">Kiếm Hiệp</a><a href="https://dtruyen.com/truyen-xuyen-khong-full/" title="Truyện Xuyên Không Full">Xuyên Không</a></div>
+                    </nav>
+                    <div class="grid-stories">
+                        <div class="story-grid" data-id="39022" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/tieu-bach-cot/" title="Tiểu Bạch Cốt" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/tieubachcotKb6Mi6VogL.jpg" itemprop="image" class="cover" width="164" height="211" alt="Tiểu Bạch Cốt"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tieu-bach-cot/" itemprop="url" title="Tiểu Bạch Cốt">Tiểu Bạch Cốt</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Long Thất"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="38201" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/ban-gai-on-nhu/" title="Bạn Gái Ôn Nhu" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/bangaionnhuaCVgCVAhhP.jpg" itemprop="image" class="cover" width="164" height="211" alt="Bạn Gái Ôn Nhu"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/ban-gai-on-nhu/" itemprop="url" title="Bạn Gái Ôn Nhu">Bạn Gái Ôn Nhu</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Thảo Tửu Đích Khiếu Hoa Tử"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="37550" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/moi-tinh-dau-han-dinh/" title="Mối Tình Đầu Hạn Định" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/moitinhdauhandinheE61koyg1T.jpg" itemprop="image" class="cover" width="164" height="211" alt="Mối Tình Đầu Hạn Định"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/moi-tinh-dau-han-dinh/" itemprop="url" title="Mối Tình Đầu Hạn Định">Mối Tình Đầu Hạn Định</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Đào Bạch Bách"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="31752" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/thang-ngay-lam-nguyet-lao-cho-yeu-quai/" title="Tháng Ngày Làm Nguyệt Lão Cho Yêu Quái" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thangngaylamnguyetlaochoyeuquaiRmgfYjNX8u.jpg" itemprop="image" class="cover" width="164" height="211" alt="Tháng Ngày Làm Nguyệt Lão Cho Yêu Quái"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/thang-ngay-lam-nguyet-lao-cho-yeu-quai/" itemprop="url" title="Tháng Ngày Làm Nguyệt Lão Cho Yêu Quái">Tháng Ngày Làm Nguyệt Lão Cho Yêu Quái</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Tư Thông Tiên Sinh"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="32512" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/nuoi-meo-xong-toi-di-len-dinh-cao-doi-nguoi/" title="Nuôi Mèo Xong Tôi Đi Lên Đỉnh Cao Đời Người" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/nuoimeoxongtoidilendinhcaodoinguoip28pCzmNPW.jpg" itemprop="image" class="cover" width="164" height="211" alt="Nuôi Mèo Xong Tôi Đi Lên Đỉnh Cao Đời Người"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/nuoi-meo-xong-toi-di-len-dinh-cao-doi-nguoi/" itemprop="url" title="Nuôi Mèo Xong Tôi Đi Lên Đỉnh Cao Đời Người">Nuôi Mèo Xong Tôi Đi Lên Đỉnh Cao Đời Người</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Viên Hữu Tinh"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="35631" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/tro-choi-den-do/" title="Trò Chơi Đen Đỏ" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/trochoidendoPLrgATH4av.jpg" itemprop="image" class="cover" width="164" height="211" alt="Trò Chơi Đen Đỏ"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tro-choi-den-do/" itemprop="url" title="Trò Chơi Đen Đỏ">Trò Chơi Đen Đỏ</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Trảo Nhất Chuy"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="41061" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/anh-khong-can-bua-xanh-anh-chi-can-em/" title="Anh Không Cần Bùa Xanh, Anh Chỉ Cần Em" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/anhkhongcanbuaxanhanhchicanem8h9pH6gIAz.jpg" itemprop="image" class="cover" width="164" height="211" alt="Anh Không Cần Bùa Xanh, Anh Chỉ Cần Em"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/anh-khong-can-bua-xanh-anh-chi-can-em/" itemprop="url" title="Anh Không Cần Bùa Xanh, Anh Chỉ Cần Em">Anh Không Cần Bùa Xanh, Anh Chỉ Cần Em</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Lương Phong Mio"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="38261" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/ban-cung-phong-cua-tui-sieu-thom-luon/" title="Bạn Cùng Phòng Của Tui Siêu Thơm Luôn" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/bancungphongcuatuisieuthomluonkYj9rqaaz6.jpg" itemprop="image" class="cover" width="164" height="211" alt="Bạn Cùng Phòng Của Tui Siêu Thơm Luôn"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/ban-cung-phong-cua-tui-sieu-thom-luon/" itemprop="url" title="Bạn Cùng Phòng Của Tui Siêu Thơm Luôn">Bạn Cùng Phòng Của Tui Siêu Thơm Luôn</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Lạp Miên Hoa Đường Đích Thố Tử"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="43997" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/muon-cung-em-ngam-trang-luc-binh-minh/" title="Muốn Cùng Em Ngắm Trăng Lúc Bình Minh" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/muoncungemngamtranglucbinhminh4ZwUe4vUDA.jpg" itemprop="image" class="cover" width="164" height="211" alt="Muốn Cùng Em Ngắm Trăng Lúc Bình Minh"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/muon-cung-em-ngam-trang-luc-binh-minh/" itemprop="url" title="Muốn Cùng Em Ngắm Trăng Lúc Bình Minh">Muốn Cùng Em Ngắm Trăng Lúc Bình Minh</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="NSFM"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="44209" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/chim-son-ca-trong-tui-ao/" title="Chim Sơn Ca Trong Túi Áo" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/chimsoncatrongtuiaoXiGyuLsWwv.jpg" itemprop="image" class="cover" width="164" height="211" alt="Chim Sơn Ca Trong Túi Áo"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/chim-son-ca-trong-tui-ao/" itemprop="url" title="Chim Sơn Ca Trong Túi Áo">Chim Sơn Ca Trong Túi Áo</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="A Tử"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="42182" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/the-than-o-la-van-nhan-me/" title="Thế Thân O Là Vạn Nhân Mê" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/thethanolavannhanmeh1t9gdQ3jv.jpg" itemprop="image" class="cover" width="164" height="211" alt="Thế Thân O Là Vạn Nhân Mê"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/the-than-o-la-van-nhan-me/" itemprop="url" title="Thế Thân O Là Vạn Nhân Mê">Thế Thân O Là Vạn Nhân Mê</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Tước Gia Tước"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                        <div class="story-grid" data-id="39917" itemscope="" itemtype="https://schema.org/Book">
+                            <meta itemprop="bookFormat" content="EBook"> <a href="https://dtruyen.com/long-chi-quyen-cuong/" title="Long Chi Quyến Cuồng" class="thumb"> <img src="" data-layzr="https://img.dtruyen.com/public/images/medium/longchiquyencuongRFuj5kxCIv.jpg" itemprop="image" class="cover" width="164" height="211" alt="Long Chi Quyến Cuồng"> <label class="label label-type-0"></label> </a>
+                            <div class="info">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/long-chi-quyen-cuong/" itemprop="url" title="Long Chi Quyến Cuồng">Long Chi Quyến Cuồng</a></h3>
+                                <p class="last-chapter">Full</p>
+                                <meta itemprop="author" content="Tuyết Ca"> </div><span class="label-status-end"></span><span class="label-hot-0"></span></div>
+                    </div>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="Truyện Full" href="https://dtruyen.com/truyen-full/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/truyen-ngan/" title="Truyện Ngắn">Truyện Ngắn <i class="fa fa-angle-right"></i></a></header>
+                    <div class="short-stories clearfix">
+                        <div class="large">
+                            <div class="short-story"> <a class="thumb" href="https://dtruyen.com/truyen-ngan/anh-trang-va-ke-hai-long/" title="Ánh Trăng Và Kẻ Hai Lòng"><img src="" data-layzr="https://img.dtruyen.com/public/images/aassanhtrangvakehailongnDWdcWAlo4.jpg" itemprop="image" class="cover" width="345" height="213" alt="Ánh Trăng Và Kẻ Hai Lòng"></a>
+                                <h4 class="title"><a href="https://dtruyen.com/truyen-ngan/anh-trang-va-ke-hai-long/" title="Ánh Trăng Và Kẻ Hai Lòng">Ánh Trăng Và Kẻ Hai Lòng</a></h4>
+                            </div>
+                        </div>
+                        <div class="small">
+                            <div class="short-story clearfix"> <a class="thumb" href="https://dtruyen.com/truyen-ngan/cau-toi-mai-mot-doi-yeu-em/" title="Cầu Tôi Mãi Một Đời Yêu Em"><img src="" data-layzr="https://img.dtruyen.com/public/images/small/aasscautoimaimotdoiyeuemPSAHvETDRI.jpg" itemprop="image" class="cover" width="81" height="47" alt="Cầu Tôi Mãi Một Đời Yêu Em"></a>
+                                <h4 class="title"><a href="https://dtruyen.com/truyen-ngan/cau-toi-mai-mot-doi-yeu-em/" title="Cầu Tôi Mãi Một Đời Yêu Em">Cầu Tôi Mãi Một Đời Yêu Em</a></h4>
+                            </div>
+                            <div class="short-story clearfix"> <a class="thumb" href="https://dtruyen.com/truyen-ngan/tinh-yeu-von-di-khong-can-qua-tu-cao-muon-o-canh-nhau-hay-dep-bo-kieu-ngao/" title="Tình Yêu Vốn Dĩ Không Cần Quá Tự Cao, Muốn Ở Cạnh Nhau Hãy Dẹp Bỏ Kiêu Ngạo"><img src="" data-layzr="https://img.dtruyen.com/public/images/small/aasstinhyeuvondikhongcanquatucaomuonocanhnhauhaydepbokieungaoxRxlv9enXJ.jpg" itemprop="image" class="cover" width="81" height="47" alt="Tình Yêu Vốn Dĩ Không Cần Quá Tự Cao, Muốn Ở Cạnh Nhau Hãy Dẹp Bỏ Kiêu Ngạo"></a>
+                                <h4 class="title"><a href="https://dtruyen.com/truyen-ngan/tinh-yeu-von-di-khong-can-qua-tu-cao-muon-o-canh-nhau-hay-dep-bo-kieu-ngao/" title="Tình Yêu Vốn Dĩ Không Cần Quá Tự Cao, Muốn Ở Cạnh Nhau Hãy Dẹp Bỏ Kiêu Ngạo">Tình Yêu Vốn Dĩ Không Cần Quá Tự Cao, Muốn Ở Cạnh Nhau Hãy Dẹp Bỏ Kiêu Ngạo</a></h4>
+                            </div>
+                            <div class="short-story clearfix"> <a class="thumb" href="https://dtruyen.com/truyen-ngan/phu-nu-khi-yeu-phai-biet-bao-ve-minh/" title="Phụ Nữ Khi 'yêu' Phải Biết Bảo Vệ Mình"><img src="" data-layzr="https://img.dtruyen.com/public/images/small/aassphunukhiyeuphaibietbaoveminhomvDzbNZlp.jpg" itemprop="image" class="cover" width="81" height="47" alt="Phụ Nữ Khi 'yêu' Phải Biết Bảo Vệ Mình"></a>
+                                <h4 class="title"><a href="https://dtruyen.com/truyen-ngan/phu-nu-khi-yeu-phai-biet-bao-ve-minh/" title="Phụ Nữ Khi 'yêu' Phải Biết Bảo Vệ Mình">Phụ Nữ Khi 'yêu' Phải Biết Bảo Vệ Mình</a></h4>
+                            </div>
+                            <div class="short-story clearfix"> <a class="thumb" href="https://dtruyen.com/truyen-ngan/em-buong-tay-boi-anh-khong-biet-giu/" title="Em Buông Tay Bởi Anh Không Biết Giữ"><img src="" data-layzr="https://img.dtruyen.com/public/images/small/aassembuongtayboianhkhongbietgiuvjWdXJk7Lf.jpg" itemprop="image" class="cover" width="81" height="47" alt="Em Buông Tay Bởi Anh Không Biết Giữ"></a>
+                                <h4 class="title"><a href="https://dtruyen.com/truyen-ngan/em-buong-tay-boi-anh-khong-biet-giu/" title="Em Buông Tay Bởi Anh Không Biết Giữ">Em Buông Tay Bởi Anh Không Biết Giữ</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <aside class="right-sidebar">
+                <section class="card-box">
+                    <header>Thể loại truyện</header>
+                    <div class="categories clearfix"> <a href="https://dtruyen.com/tien-hiep/" title="Tiên hiệp">Tiên hiệp</a><a href="https://dtruyen.com/kiem-hiep/" title="Kiếm hiệp">Kiếm hiệp</a><a href="https://dtruyen.com/truyen-teen/" title="Truyện Teen">Truyện Teen</a><a href="https://dtruyen.com/ngon-tinh/"
+                            title="Ngôn Tình">Ngôn Tình</a><a href="https://dtruyen.com/doan-van/" title="Đoản Văn">Đoản Văn</a><a href="https://dtruyen.com/dong-phuong/" title="Đông Phương">Đông Phương</a><a href="https://dtruyen.com/gia-dau/" title="Gia Đấu">Gia Đấu</a>
+                        <a
+                            href="https://dtruyen.com/nu-cuong/" title="Nữ Cường">Nữ Cường</a><a href="https://dtruyen.com/cung-dau/" title="Cung Đấu">Cung Đấu</a><a href="https://dtruyen.com/truyen-sung/" title="Truyện Sủng">Truyện Sủng</a><a href="https://dtruyen.com/truyen-nguoc/" title="Truyện Ngược">Truyện Ngược</a>
+                            <a
+                                href="https://dtruyen.com/linh-di/" title="Linh Dị">Linh Dị</a><a href="https://dtruyen.com/tham-hiem/" title="Thám Hiểm">Thám Hiểm</a><a href="https://dtruyen.com/bach-hop/" title="Bách Hợp">Bách Hợp</a><a href="https://dtruyen.com/hai-huoc/" title="Hài Hước">Hài Hước</a>
+                                <a
+                                    href="https://dtruyen.com/hien-dai/" title="Hiện Đại">Hiện Đại</a><a href="https://dtruyen.com/viet-nam/" title="Việt Nam">Việt Nam</a><a href="https://dtruyen.com/light-novel/" title="Light Novel">Light Novel</a><a href="https://dtruyen.com/nu-phu/" title="Nữ Phụ">Nữ Phụ</a>
+                                    <a
+                                        href="https://dtruyen.com/phuong-tay/" title="Phương Tây">Phương Tây</a><a href="https://dtruyen.com/mat-the/" title="Mạt Thế">Mạt Thế</a><a href="https://dtruyen.com/co-dai/" title="Cổ Đại">Cổ Đại</a><a href="https://dtruyen.com/dien-van/" title="Điền Văn">Điền Văn</a>
+                                        <a
+                                            href="https://dtruyen.com/dong-nhan/" title="Đồng Nhân">Đồng Nhân</a><a href="https://dtruyen.com/trong-sinh/" title="Trọng Sinh">Trọng Sinh</a><a href="https://dtruyen.com/di-nang/" title="Dị Năng">Dị Năng</a><a href="https://dtruyen.com/huyen-huyen/" title="Huyền Huyễn">Huyền Huyễn</a>
+                                            <a
+                                                href="https://dtruyen.com/di-gioi/" title="Dị Giới">Dị Giới</a><a href="https://dtruyen.com/vong-du/" title="Võng Du">Võng Du</a><a href="https://dtruyen.com/quan-su/" title="Quân sự">Quân sự</a><a href="https://dtruyen.com/khoa-hoc/" title="Khoa học">Khoa học</a>
+                                                <a
+                                                    href="https://dtruyen.com/lich-su/" title="Lịch sử">Lịch sử</a><a href="https://dtruyen.com/truyen-khac/" title="Truyện Khác">Truyện Khác</a><a href="https://dtruyen.com/do-thi/" title="Đô thị">Đô thị</a><a href="https://dtruyen.com/khoa-huyen/" title="Khoa Huyễn">Khoa Huyễn</a>
+                                                    <a
+                                                        href="https://dtruyen.com/xuyen-khong/" title="Xuyên Không">Xuyên Không</a><a href="https://dtruyen.com/truyen-ma/" title="Truyện ma">Truyện ma</a><a href="https://dtruyen.com/xuyen-nhanh/" title="Xuyên Nhanh">Xuyên Nhanh</a><a href="https://dtruyen.com/quan-truong/"
+                                                            title="Quan Trường">Quan Trường</a><a href="https://dtruyen.com/dam-my/" title="Đam Mỹ">Đam Mỹ</a><a href="https://dtruyen.com/he-thong/" title="Hệ thống">Hệ thống</a><a href="https://dtruyen.com/tieu-thuyet/"
+                                                            title="Tiểu thuyết">Tiểu thuyết</a><a href="https://dtruyen.com/truyen-cuoi/" title="Truyện Cười">Truyện Cười</a><a href="https://dtruyen.com/truyen-ngan/" title="Truyện Ngắn">Truyện Ngắn</a><a href="https://dtruyen.com/truyen-trinh-tham/"
+                                                            title="Truyện trinh thám">Truyện trinh thám</a><a href="https://dtruyen.com/truyen-sac/" title="Truyện Sắc">Truyện Sắc</a> </div>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/review/" title="Review Truyện">Review Truyện <i class="fa fa-angle-right"></i></a></header>
+                    <ul class="review-list">
+                        <li class="news-item clearfix"> <a href="https://dtruyen.com/review/top-truyen-xuyen-khong/" class="thumb" title="Top truyện xuyên không được đề cử tháng 8-2021" rel="nofollow"><img src="" data-layzr="https://img.dtruyen.com/public/images/news/toptruyenxuyenkhongvVFcC.jpg" width="60" height="42" alt="Top truyện xuyên không được đề cử tháng 8-2021"></a>
+                            <h4 class="title"><a href="https://dtruyen.com/review/top-truyen-xuyen-khong/" title="Top truyện xuyên không được đề cử tháng 8-2021">Top truyện xuyên không được đề cử tháng 8-2021</a></h4>
+                        </li>
+                        <li class="news-item clearfix"> <a href="https://dtruyen.com/review/top-truyen-xuyen-khong-hay/" class="thumb" title="Top truyện xuyên không hay nhất mọi thời đại" rel="nofollow"><img src="" data-layzr="https://img.dtruyen.com/public/images/news/toptruyenxuyenkhonghay98p6S.jpg" width="60" height="42" alt="Top truyện xuyên không hay nhất mọi thời đại"></a>
+                            <h4 class="title"><a href="https://dtruyen.com/review/top-truyen-xuyen-khong-hay/" title="Top truyện xuyên không hay nhất mọi thời đại">Top truyện xuyên không hay nhất mọi thời đại</a></h4>
+                        </li>
+                        <li class="news-item clearfix"> <a href="https://dtruyen.com/review/top-truyen-trong-sinh/" class="thumb" title="Top truyện trọng sinh hay nhất nửa đầu năm 2021" rel="nofollow"><img src="" data-layzr="https://img.dtruyen.com/public/images/news/toptruyentrongsinhDbKBi.jpg" width="60" height="42" alt="Top truyện trọng sinh hay nhất nửa đầu năm 2021"></a>
+                            <h4 class="title"><a href="https://dtruyen.com/review/top-truyen-trong-sinh/" title="Top truyện trọng sinh hay nhất nửa đầu năm 2021">Top truyện trọng sinh hay nhất nửa đầu năm 2021</a></h4>
+                        </li>
+                        <li class="news-item clearfix"> <a href="https://dtruyen.com/review/top-truyen-tien-hiep/" class="thumb" title="Top truyện tiên hiệp hay nhất dành cho fan nam 2021" rel="nofollow"><img src="" data-layzr="https://img.dtruyen.com/public/images/news/toptruyentienhiepS9Twc.jpg" width="60" height="42" alt="Top truyện tiên hiệp hay nhất dành cho fan nam 2021"></a>
+                            <h4 class="title"><a href="https://dtruyen.com/review/top-truyen-tien-hiep/" title="Top truyện tiên hiệp hay nhất dành cho fan nam 2021">Top truyện tiên hiệp hay nhất dành cho fan nam 2021</a></h4>
+                        </li>
+                        <li class="news-item clearfix"> <a href="https://dtruyen.com/review/top-truyen-sinh-ton-hay/" class="thumb" title="Top truyện sinh tồn hay nhất mọi thời đại" rel="nofollow"><img src="" data-layzr="https://img.dtruyen.com/public/images/news/toptruyensinhtonhay3m4eA.jpg" width="60" height="42" alt="Top truyện sinh tồn hay nhất mọi thời đại"></a>
+                            <h4 class="title"><a href="https://dtruyen.com/review/top-truyen-sinh-ton-hay/" title="Top truyện sinh tồn hay nhất mọi thời đại">Top truyện sinh tồn hay nhất mọi thời đại</a></h4>
+                        </li>
+                    </ul>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="Truyện Full" href="https://dtruyen.com/review/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/truyen-duoc-xem-nhieu-nhat/" title="Top Truyện Hay">Top Truyện Hay <i class="fa fa-angle-right"></i></a></header>
+                    <div class="top-stories">
+                        <ul>
+                            <li class="story-top" data-id="3910" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/ngao-the-dan-than/" itemprop="url" title="Ngạo Thế Đan Thần">Ngạo Thế Đan Thần</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 291,812,652</p>
+                            </li>
+                            <li class="story-top" data-id="13601" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/than-dao-dan-ton-wt1/" itemprop="url" title="Thần Đạo Đan Tôn">Thần Đạo Đan Tôn</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 107,726,921</p>
+                            </li>
+                            <li class="story-top" data-id="7602" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/linh-vu-thien-ha/" itemprop="url" title="Linh Vũ Thiên Hạ">Linh Vũ Thiên Hạ</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 90,839,596</p>
+                            </li>
+                            <li class="story-top" data-id="109" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/kiem-dao-doc-ton/" itemprop="url" title="Kiếm Đạo Độc Tôn">Kiếm Đạo Độc Tôn</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 88,236,394</p>
+                            </li>
+                            <li class="story-top" data-id="15028" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/doc-y-than-nu-phuc-hac-lanh-de-cuong-sung-the/" itemprop="url" title="Độc Y Thần Nữ: Phúc Hắc Lãnh Đế Cuồng Sủng Thê">Độc Y Thần Nữ: Phúc Hắc Lãnh Đế Cuồng Sủng Thê</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 75,789,212</p>
+                            </li>
+                            <li class="story-top" data-id="20229" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/con-duong-ba-chu-wt14/" itemprop="url" title="Con Đường Bá Chủ ">Con Đường Bá Chủ </a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 60,519,010</p>
+                            </li>
+                            <li class="story-top" data-id="7542" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/hon-trom-55-lan-wt1/" itemprop="url" title="Hôn Trộm 55 Lần">Hôn Trộm 55 Lần</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 57,949,382</p>
+                            </li>
+                            <li class="story-top" data-id="11073" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/ep-yeu-100-ngay/" itemprop="url" title="Ép Yêu 100 Ngày">Ép Yêu 100 Ngày</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 55,315,118</p>
+                            </li>
+                            <li class="story-top" data-id="10580" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tuyet-sac-dan-duoc-su-quy-vuong-yeu-phi/" itemprop="url" title="Tuyệt Sắc Đan Dược Sư: Quỷ Vương Yêu Phi">Tuyệt Sắc Đan Dược Sư: Quỷ Vương Yêu Phi</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 55,228,356</p>
+                            </li>
+                            <li class="story-top" data-id="1581" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/hop-dong-hon-nhan-100-ngay/" itemprop="url" title="Hợp Đồng Hôn Nhân 100 Ngày">Hợp Đồng Hôn Nhân 100 Ngày</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 50,983,735</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="Top Truyện hay" href="https://dtruyen.com/truyen-duoc-xem-nhieu-nhat/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+                <section class="card-box">
+                    <header><a href="https://dtruyen.com/truyen-moi-dang/" title="Truyện mới đăng">Truyện mới đăng <i class="fa fa-angle-right"></i></a></header>
+                    <div class="top-stories">
+                        <ul>
+                            <li class="story-top" data-id="44486" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/luc-thieu-cung-chieu-co-vo-bac-si-bi-an-tan-troi/" itemprop="url" title="Lục Thiếu Cưng Chiều Cô Vợ Bác Sĩ Bí Ẩn Tận Trời">Lục Thiếu Cưng Chiều Cô Vợ Bác Sĩ Bí Ẩn Tận Trời</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 0</p>
+                            </li>
+                            <li class="story-top" data-id="44525" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/than-cap-may-man/" itemprop="url" title="Thần Cấp May Mắn">Thần Cấp May Mắn</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 50</p>
+                            </li>
+                            <li class="story-top" data-id="44515" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/neu-em-o-lai-anh-hua-se-ngoan/" itemprop="url" title="Nếu Em Ở Lại, Anh Hứa Sẽ Ngoan!">Nếu Em Ở Lại, Anh Hứa Sẽ Ngoan!</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 450</p>
+                            </li>
+                            <li class="story-top" data-id="44514" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/em-gai-nuoi-co-thua-toi-roi/" itemprop="url" title="Em Gái Nuôi, Cô Thua Tôi Rồi!">Em Gái Nuôi, Cô Thua Tôi Rồi!</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 1,200</p>
+                            </li>
+                            <li class="story-top" data-id="44512" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/quan-lam-binh-vuong/" itemprop="url" title="Quân Lâm Binh Vương">Quân Lâm Binh Vương</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 150</p>
+                            </li>
+                            <li class="story-top" data-id="44511" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/hon-an/" itemprop="url" title="Hôn An">Hôn An</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 0</p>
+                            </li>
+                            <li class="story-top" data-id="44509" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/vuon-bach-thao-son-hai/" itemprop="url" title="Vườn Bách Thảo Sơn Hải">Vườn Bách Thảo Sơn Hải</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 950</p>
+                            </li>
+                            <li class="story-top" data-id="44508" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/quay-lai-tuoi-17-de-cuu-roi-chinh-minh/" itemprop="url" title="Quay Lại Tuổi 17 Để Cứu Rỗi Chính Mình">Quay Lại Tuổi 17 Để Cứu Rỗi Chính Mình</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 1,150</p>
+                            </li>
+                            <li class="story-top" data-id="44506" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/mau-xuyen-nam-than-that-ngot-ngao/" itemprop="url" title="Mau Xuyên: Nam Thần Thật Ngọt Ngào ">Mau Xuyên: Nam Thần Thật Ngọt Ngào </a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 0</p>
+                            </li>
+                            <li class="story-top" data-id="44503" itemscope="" itemtype="https://schema.org/Book">
+                                <meta itemprop="bookFormat" content="EBook">
+                                <h3 class="title" itemprop="name"><a href="https://dtruyen.com/tieu-thiep-vuong-phu/" itemprop="url" title="Tiểu Thiếp Vương Phủ">Tiểu Thiếp Vương Phủ</a></h3>
+                                <p class="viewed"><i class="fa fa-eye"></i> 300</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer> <a class="show-more-btn" rel="nofollow" title="Truyện mới đăng" href="https://dtruyen.com/truyen-moi-dang/">XEM THÊM <i class="fa fa-angle-down"></i></a> </footer>
+                </section>
+            </aside>
+        </div>
+    </div>
+    <footer id="main-footer">
+        <div class="footer-links container" id="footer-links">
+            <h4>Top truyện nổi bật của tháng</h4>
+        </div>
+        <div class="container">
+            <div class="main-col">Website <a title="đọc truyện online" href="https://dtruyen.com/">đọc truyện</a> online chất lượng hàng đầu việt nam, với nhiều <a title="Truyện Tiên Hiệp" href="https://dtruyen.com/tien-hiep/">truyện tiên hiệp</a>, <a title="Truyện Kiếm Hiệp"
+                    href="https://dtruyen.com/kiem-hiep/">truyện kiếm hiệp</a>, <a title="truyen ngon tinh" href="https://dtruyen.com/ngon-tinh/">truyện ngôn tình</a>, <a title="truyen teen" href="https://dtruyen.com/truyen-teen/">truyện teen</a>, <a title="Truyện Đô Thị"
+                    href="https://dtruyen.com/do-thi/">truyện đô thị</a> được tác giả và dịch giả chọn lọc và đăng tải. Truy cập website nghĩa là bạn đã đồng ý với các quy định và điều khoản của chúng tôi. Vui lòng đọc kỹ các thông tin liên quan ở phía dưới.
+                <p><a rel="nofollow" href="https://dtruyen.com/privacy-policy/" title="Privacy Policy">Chính sách bảo mật</a> &nbsp; - &nbsp;<a rel="nofollow" href="https://dtruyen.com/terms/" title="Terms">Điều khoản sử dụng</a> &nbsp; - &nbsp;<a rel="nofollow"
+                        href="https://dtruyen.com/content-rules/" title="Content Rules">Quy định về nội dung</a> &nbsp; - &nbsp;<a rel="nofollow" href="https://dtruyen.com/right-holders/" title="DMCA Guidelines">Vấn đề bản quyền</a> &nbsp; - &nbsp;<a rel="nofollow"
+                        href="https://dtruyen.com/confidental/" title="Privacy agreement">Thỏa thuận quyền riêng tư</a> </p>
+                <p> Website hoạt động dưới <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Giấy phép truy cập mở Creative Commons Attribution 4.0 International License.</a>. </p>
+                <script src="https://img.dtruyen.com/public/frontend/desk/js/DMCABadgeHelper.min.js"></script> <a href="https://www.dmca.com/Protection/Status.aspx?ID=8474e935-28de-489e-a6dc-dc6e1d98563c" title="DMCA.com Protection Program" class="dmca-badge" rel="nofollow" target="_blank"> <img src="" data-layzr="https://dtruyen.com/dmca.png" alt="DMCA.com Protection Status" width="75" height="36" /></a>                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons License"><img height="15" width="80" alt="Creative Commons License" style="border-width: 0" src="" data-layzr="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>                </div>
+            <div class="right-sidebar">
+                <p>Copyright <i class="fa fa-copyright"></i> 2021 <a title="https://dtruyen.com" href="https://dtruyen.com/">DTruyen.Com</a></p>
+            </div>
+        </div>
+    </footer><noscript id="deferred-styles"><link rel="stylesheet" type="text/css" href="https://img.dtruyen.com/desktop/css/main.css?v=0.0.3"></noscript><noscript id="deferred-scripts">https://img.dtruyen.com/desktop/js/main_events.js</noscript>
+    <script src="https://img.dtruyen.com/desktop/js/main.js?v=0.1.22"></script>
+    <script src="https://img.dtruyen.com/desktop/js/home.js"></script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCG6LV5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></body>
+
+</html>

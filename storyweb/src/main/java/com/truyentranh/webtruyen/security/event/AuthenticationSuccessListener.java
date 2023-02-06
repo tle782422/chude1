@@ -1,0 +1,35 @@
+package com.truyentranh.webtruyen.security.event;
+
+import javax.annotation.Resource;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationListener;
+import org.springframework.security.authentication.LockedException;
+import org.springframework.security.authentication.event.AuthenticationSuccessEvent;
+import org.springframework.stereotype.Component;
+
+import com.truyentranh.webtruyen.security.bruteforce.BruteForceProtectionService;
+
+@Component("authenticationSuccessListener")
+public class AuthenticationSuccessListener implements ApplicationListener<AuthenticationSuccessEvent> {
+
+    private static Logger LOG  = LoggerFactory.getLogger(AuthenticationSuccessListener.class);
+
+    @Resource(name="bruteForceProtectionService")
+    private BruteForceProtectionService bruteForceProtectionService;
+
+    @Override
+    public void onApplicationEvent(AuthenticationSuccessEvent event) {
+        String username= event.getAuthentication().getName();
+        LOG.info("********* login successful for user {} ", username);
+        boolean check = bruteForceProtectionService.isBlocked(username);
+        if(check==true) {
+        	throw new LockedException("fail!");  
+        	
+        } else {
+        	bruteForceProtectionService.resetBruteForceCounter(username);
+        }
+//        bruteForceProtectionService.resetBruteForceCounter(username);
+    }
+}

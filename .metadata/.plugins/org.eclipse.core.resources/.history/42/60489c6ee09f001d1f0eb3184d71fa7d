@@ -1,0 +1,5 @@
+package com.truyentranh.webtruyen.security.models;
+
+public class SecureToken {
+
+}

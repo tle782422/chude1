@@ -1,0 +1,9 @@
+package com.javadevjournal.core.security.mfa;
+
+
+public interface MFATokenManager {
+
+    String generateSecretKey();
+    String getQRCode(final String secret) throws QrGenerationException;
+    boolean verifyTotp(final String code, final String secret);
+}
